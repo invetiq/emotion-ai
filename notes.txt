@@ -1,0 +1,89 @@
+Reference
+=========
+https://conda.anaconda.org/conda-forge/
+https://docs.conda.io/projects/conda/en/4.6.1/user-guide/overview.html
+https://bankifi.udemy.com/course/complete-tensorflow-2-and-keras-deep-learning-bootcamp
+
+Conda Commands
+==============
+conda doctor
+conda update -n base -c conda-forge conda
+conda install -n base conda-forge::mamba
+conda info -e
+conda create --clone base --name emaotionai
+conda create -n emotionai tensorflow
+conda activate emotionalai
+conda install python=<version>
+conda install jupyter
+conda install jupyter-notebook
+conda create env -n emotionai               # creates new virtual env
+source activate emotionai                   # activate environment in terminal
+conda activate env -n tensorflow            # activate environment in terminal
+conda info --envs
+conda env list
+conda install jupyter                       # install jupyter + notebook
+conda install anaconda-toolbox              # install anaconda tool box
+conda install --file requirements.txt
+conda update -n base -c defaults conda      # Update Conda
+conda search pillow                         # Search for Dependancy
+conda install -c conda-forge tensorflow
+conda install -c conda "tensorflow==2.14.0"
+conda install -c conda-forge pillow
+conda install channel menpo opencv3
+conda install channel conda-forge jupyter-notebook
+conda config --show default_channels
+conda config --describe
+conda config --describe channel_priority
+conda config --show-sources
+conda config --show
+conda update anaconda-navigator
+conda update navigator-updater
+
+PIP3 Commands
+=============
+pip install notebook
+pip show notebook
+pip install jupyter
+pip show jupyter
+pip install jupyterlab
+pip show jupyterlab
+pip install tensorflow
+pip install tensorflow==2.14.0
+pip show tensorflow
+pip install keras
+pip show keras
+pip install seaborn
+pip show seaborn
+pip install --upgrade tensorflow==2.14.0
+pip install opencv-python
+pip install virtualenv
+    virtualenv testopencv
+    cd testopencv
+    .\Scripts\activate
+    pip install opencv-contrib-python --upgrade
+    Python
+    import cv2
+    print(cv2.__version__)
+
+Jupyter Notebook Commands
+=========================
+jupyter notebook                            # start server + kernel inside my-conda-env
+jupyter lab                                 # launch tool box
+
+Python Commands
+===============
+python3 -m pip install tensorflow
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+python3 -m pip install tensorflow[and-cuda]
+py --list-paths
+
+OS Commands
+===========
+Linux: which python
+Windows: where python
+
+
+
+
+
+
