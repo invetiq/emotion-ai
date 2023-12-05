@@ -3,41 +3,54 @@ Reference
 https://conda.anaconda.org/conda-forge/
 https://docs.conda.io/projects/conda/en/4.6.1/user-guide/overview.html
 https://bankifi.udemy.com/course/complete-tensorflow-2-and-keras-deep-learning-bootcamp
+http://mmb.irbbarcelona.org/molywood/tutorials/windows_sub
 
 Conda Commands
 ==============
 conda doctor
+conda init
+conda update --all
+conda update -n base -c defaults conda
+conda info -e
+conda config --show
+conda config --show channels
+conda config --describe channels
+conda config --add channels conda-forge
+conda config --show default_channels
+conda config --describe
+conda config --describe channel_priority
+conda create --clone base --name emaotion-ai
+conda create --name intelekt python=3.9
 conda update -n base -c conda-forge conda
 conda install -n base conda-forge::mamba
-conda info -e
-conda create --clone base --name emaotionai
-conda create -n emotionai tensorflow
-conda activate emotionalai
+conda create -n emotion-ai
+conda activate emotional-ai
 conda install python=<version>
 conda install jupyter
 conda install jupyter-notebook
-conda create env -n emotionai               # creates new virtual env
-source activate emotionai                   # activate environment in terminal
-conda activate env -n tensorflow            # activate environment in terminal
+conda create env -n emotion-ai               # creates new virtual env
+source activate emotion-ai                   # activate environment in terminal
+conda activate env -n tensorflow             # activate environment in terminal
 conda info --envs
 conda env list
-conda install jupyter                       # install jupyter + notebook
-conda install anaconda-toolbox              # install anaconda tool box
+conda install jupyter                        # install jupyter + notebook
+conda install anaconda-toolbox               # install anaconda tool box
 conda install --file requirements.txt
-conda update -n base -c defaults conda      # Update Conda
-conda search pillow                         # Search for Dependancy
+conda update -n base -c defaults conda       # Update Conda
+conda search pillow                          # Search for Dependancy
 conda install -c conda-forge tensorflow
 conda install -c conda "tensorflow==2.14.0"
 conda install -c conda-forge pillow
 conda install channel menpo opencv3
 conda install channel conda-forge jupyter-notebook
-conda config --show default_channels
-conda config --describe
-conda config --describe channel_priority
 conda config --show-sources
 conda config --show
 conda update anaconda-navigator
 conda update navigator-updater
+conda install -c conda-forge keras
+conda install -c conda-forge seaborn
+conda install -c conda-forge opencv-pythony
+
 
 PIP3 Commands
 =============
@@ -48,7 +61,7 @@ pip show jupyter
 pip install jupyterlab
 pip show jupyterlab
 pip install tensorflow
-pip install tensorflow==2.14.0
+pip install tensorflow==2.14
 pip show tensorflow
 pip install keras
 pip show keras
@@ -67,8 +80,8 @@ pip install virtualenv
 
 Jupyter Notebook Commands
 =========================
-jupyter notebook                            # start server + kernel inside my-conda-env
-jupyter lab                                 # launch tool box
+jupyter notebook                             # start server + kernel inside my-conda-env
+jupyter lab                                  # launch tool box
 
 Python Commands
 ===============
